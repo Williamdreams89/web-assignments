@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    height: 1500px;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 90vh;
+    margin-bottom: 3rem;
+}
+
+.hero{
+    background: url("img/fresh_berries.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100vw;
+    background-attachment: fixed;  
+    position: relative;
+    z-index: -1;  
+}
+
+
+
+nav{
+    width: 100vw;
+    height: 4rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+nav h3{
+    color: orangered;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: max-content;
+    font-weight: 600;
+}
+
+
+
+.nav-list a{
+    color: orangered;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    padding: 10px 15px;
+
+}
+
+.nav-list a:hover{
+    transition: .5s ease-in-out;
+    color: white;
+    background-color: orangered;
+}
+
+.section_one{
+    width: 100%;
+}
+.jumbothron{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.desc{
+    width: 60ch;
+    padding-left: 3rem;
+}
+
+.desc h3{
+    color: orangered;
+    font-size: 25px;
+    margin-bottom: 2rem;
+    letter-spacing: 4px;
+}
+
+.desc p{
+    font-size: 20px;
+}
+
+.price{
+    color: orangered;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.desc .descr-btns{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width:15ch;
+    font-weight: 600;
+}
+
+.btn-buy{
+    color: white;
+    background-color: rgb(251, 120, 68);
+}
+
+.btn-buy:hover{
+    background-color: orangered;
+}
+
+.btn-sell{
+    background-color: oldlace;
+    border: 1px solid #333;
+}
+
+.btn-sell:hover{
+    color: white;
+    background-color: orangered;
+    border: none;
+}
+
+.fruit_card{
+    width: 50ch;
+    text-align: center;
+}
+
+.fruit-descip{
+    width: 70%;
+    height: 30ch;
+    margin: auto;
+    box-shadow: 10px 0 20px rgba(0, 0, 0, .6);
+    margin-top: 1rem;
+}
+
+.btn-buy-now{
+    color: white;
+    background-color: orangered;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.categories-container{
+    margin-top: 4.5rem;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+center h2{
+    color: orangered;
+    margin-bottom: 3.5rem;
+}
+
+.hero_inside{
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 13.5rem;
+    top: 40%;
+    background-color: rgba(0, 0, 0, .6);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero_inside h3{
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.hero_inside a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    border: 1px solid orangered;
+    background-color: orangered;
+    padding: 10px 22px;
+    width: max-content;
+}
+
+.hero_inside a:hover{
+    background-color: orangered;
+}
