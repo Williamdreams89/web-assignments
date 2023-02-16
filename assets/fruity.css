@@ -40,7 +40,8 @@ header{
 nav{
     width: 100vw;
     height: 4rem;
-    background-color: white;
+    /* background-color: white; */
+    background-color: orangered;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -49,7 +50,7 @@ nav{
 }
 
 nav h3{
-    color: orangered;
+    color: white;
     letter-spacing: 3px;
     cursor: pointer;
 }
@@ -65,7 +66,7 @@ nav h3{
 
 
 .nav-list a{
-    color: orangered;
+    color: white;
     text-decoration: none;
     margin-left: 1.5rem;
     padding: 10px 15px;
@@ -74,8 +75,8 @@ nav h3{
 
 .nav-list a:hover{
     transition: .5s ease-in-out;
-    color: white;
-    background-color: orangered;
+    color: orangered;
+    background-color: white;
 }
 
 .section_one{
@@ -153,7 +154,7 @@ nav h3{
 
 .fruit-descip{
     width: 70%;
-    height: 30ch;
+    height: 35ch;
     margin: auto;
     box-shadow: 10px 0 20px rgba(0, 0, 0, .6);
     margin-top: 1rem;
@@ -213,4 +214,12 @@ center h2{
 
 .hero_inside a:hover{
     background-color: orangered;
+}
+
+.fa-cart-arrow-down{
+    font-size: 21px;
+}
+
+.fa-star, .fa-star-half{
+    color: goldenrod;
 }
