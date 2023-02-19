@@ -62,17 +62,18 @@ nav{
     width: 30%;
     font-size: 20px;
     position: relative;
+    padding-right: 1rem;
 }
 
 .menu_list a{
     color: white;
     text-decoration: none;
-    padding: 5px 9px;
+    padding: 5px 11px;
 }
 
 .menu_list a:hover{
-    background-color: rgba(133, 129, 129, .8);
-    color: black;
+    background-color: orangered;
+    color: white;
     transition: .3s ease-in-out;
 }
 
