@@ -171,7 +171,7 @@ header .desription{
 
 footer{
     width: 100vw;
-    height: 44vh;
+    height: 45vh;
     background-color: #333;
     display: flex;
     flex-direction: column;
@@ -189,7 +189,6 @@ footer{
     gap: 2rem;
     display: flex;
     justify-content: space-around;
-    margin: auto;
 }
 
 .cont1{
@@ -201,6 +200,93 @@ footer{
     width: 100px;
     height: 100px;
 }
+
+.cont2 h3{
+    color: orangered;
+}
+
+.cont2 ul{
+    list-style: circle;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: .81rem;
+}
+
+.cont2 ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.cont2 ul a:hover{
+    color: orange;
+    scale: 1.6;
+}
+
+.cont3{
+    width: 80vw;
+    color: orangered;
+}
+
+.cont3 h3{
+    margin: auto;
+    width: max-content;
+}
+
+.socials{
+    width: 70%;
+    margin: auto;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem auto;
+}
+
+.socials a{
+    color: rgb(245, 179, 57);
+    cursor: pointer;
+    text-decoration: none;
+}
+.socials a:hover{
+    color: orange;
+    cursor: pointer;
+    scale: 2;
+    transition: .3s ease-in-out;
+}
+
+.other{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 16px;
+}
+
+.other .fa-solid{
+    color: orange;
+}
+
+.other .fa-solid_cont:hover{
+    scale: 1.2;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.other button{
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 1.1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.other button:hover{
+    background-color: orange;
+    color: white;
+    transition: .4s ease;
+}
+
 
 /* Responsiveness */
 
@@ -226,7 +312,14 @@ footer{
         width: 40ch;
     }
 
-    .parent_container1{
-        width: 80%; 
+    .container-boss{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+
+    .parent_container1{
+        display: flex;
+    }    
 }
