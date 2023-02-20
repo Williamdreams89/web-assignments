@@ -5,9 +5,25 @@
 }
 
 body{
-    overflow-x: hidden;
-    width: 100vw;
+    overflow-x: hidden !important;
+    width: 100vw !important;
 }
+
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: orange;
+    border-radius: 10px;
+  }
 
 /* Navigation bar */
 
@@ -103,6 +119,44 @@ header .desription{
 
 /* Main */
 
+
+
+.page_title_cont{
+    width: 50ch;
+    margin: auto;
+    position: relative;
+    margin-top: 3rem;
+    
+}
+
+.page_item_title{
+    color: orangered;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.page_title_cont::after{
+    content: "";
+    position: absolute;
+    width: 6rem;
+    height: 0.3rem;
+    background-color: orange;
+    top: 40%;
+    right: 0;
+}
+
+.page_title_cont::before{
+    content: "";
+    position: absolute;
+    width: 6rem;
+    height: 0.3rem;
+    background-color: orange;
+    top: 40%;  
+    
+}
+
 .members_profile {
   margin-top: 3rem !important;
   width: 95vw;
@@ -186,7 +240,7 @@ footer{
 }
 
 .parent_container1{
-    width: 90%;
+    width: 80%;
     gap: 2rem;
     display: flex;
     justify-content: space-around;
@@ -323,4 +377,9 @@ footer{
     .parent_container1{
         display: flex;
     }    
+}
+
+
+@media screen and (min-width: 801px) and (max-width: 1800px) {
+    
 }
