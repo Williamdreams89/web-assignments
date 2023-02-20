@@ -176,7 +176,7 @@ header .desription{
 
 .member_profile:hover{
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-    scale: 1.3;
+    scale: 1.1;
 }
 
 .member_profile_box{
@@ -300,7 +300,69 @@ header .desription{
 
 /* Contact Section */
 
+.contact_section{
+    margin-bottom: 5rem;
+}
 
+.contact_section .page_title_cont h2{
+    margin-bottom: 2rem;
+}
+
+.contact_parent{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+.contact_form_bg{
+    width: 60vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_img{
+    object-fit: cover;
+    width: 600px;
+    height: 500px;
+}
+
+.cont_form_main{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 510px;
+    justify-content: center;
+    gap: 1.3rem;
+}
+
+
+.cont_form_main .input{
+    background-color: transparent;
+    padding: 4px;
+    outline: none;
+    border: 2px solid orange;
+    color: white;
+}
+
+.cont_form_main .input::placeholder{
+    color: white;
+    font-weight: bold;
+
+}
+
+.contact_submit_button{
+    width: max-content;
+    background-color: #0d6efd;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
 
 /* Footer */
 
@@ -507,28 +569,7 @@ footer{
         gap: 1rem;
     }
     
-    .cont_form_main .input{
-        background-color: transparent;
-        padding: 4px;
-        outline: none;
-        border: 2px solid orange;
-    }
     
-    .cont_form_main .input::placeholder{
-        color: white;
-        font-weight: bold;
-    
-    }
-    
-    .contact_submit_button{
-        width: max-content;
-        background-color: #0d6efd;
-        border: none;
-        padding: 10px 20px;
-        font-weight: bold;
-        color: white;
-        border-radius: 10px;
-    }
     
 }
 
