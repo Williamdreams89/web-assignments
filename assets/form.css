@@ -1,0 +1,137 @@
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: bisque;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form_outer_container{
+    width: 900px;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: auto;
+    justify-content: end;
+}
+
+.form_container{
+    width: 780px;
+    height: 590px;
+    background-color: aliceblue;
+    position: relative;
+    box-shadow: 7px -7px 5px -3px rgba(0,0,0,0.49);
+-webkit-box-shadow: 7px -7px 5px -3px rgba(0,0,0,0.49);
+-moz-box-shadow: 7px -7px 5px -3px rgba(0,0,0,0.49);
+}
+
+.a_box{
+    background-color: crimson;
+    width: 360px;
+    height: 360px;
+    margin: auto;
+    position: absolute;
+    top: 13%;
+    left: -10%;
+}
+
+form{
+    width: 465px;
+    height: 450px;
+    position: absolute;
+    right: 0%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-image: "assets/img/essentials/zoe.png";
+}
+
+.form-group{
+    display: flex;
+    width: max-content;
+    gap: 3rem;
+}
+
+.form-group .form-field:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid crimson;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+    outline: none;
+  }
+  
+  input[type="radio"]:checked {
+    background-color: crimson;
+  }
+
+  input[type="text"], input[type="email"], input[type="date"]{
+    width: 300px;
+    padding: 7px;
+    border: 1px solid crimson;
+    outline: none;
+}
+
+input[type="file"]{
+      border: 1px solid crimson;
+  }
+
+input[type="submit"]{
+      border: 1px solid crimson;
+      width: max-content;
+      padding: 10px 25px;
+      font-weight: 700;
+      color: crimson;
+  }
+
+input[type="submit"]:hover{
+    background-color: crimson;
+    color: white;
+}
+
+input[type="checkbox"] {
+    background-color: crimson;
+  }
+  
+
+.inside_a_box{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;   
+}
+
+.inside_a_box h3{
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+
+
+form center{
+    color: crimson;
+    font-size: 33px;
+    font-family: monospace;
+    font-weight: bold;
+}

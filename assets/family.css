@@ -4,10 +4,15 @@
   margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     overflow-x: hidden !important;
     width: 100vw !important;
     height: max-content;
+    position: relative;
 }
 
 ::-webkit-scrollbar {
@@ -50,6 +55,7 @@ nav{
     display: flex;
     color: white;
     gap: 10px;
+    cursor: pointer;
 }
 
 .logo_brand{
@@ -89,8 +95,7 @@ nav{
 }
 
 .menu_list a:hover{
-    background-color: orangered;
-    color: white;
+    color: orangered;
     transition: .3s ease-in-out;
 }
 
@@ -486,6 +491,8 @@ footer{
 }
 
 
+
+
 /* Responsiveness */
 
 @media screen and (max-width: 800px) {
@@ -584,5 +591,18 @@ footer{
     .service_parent{
         flex-direction: column;
         justify-content: space-around;
+    }
+
+    .container-boss{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width: 799px){
+    .link_first{
+        display: none;
     }
 }

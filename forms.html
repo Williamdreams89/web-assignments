@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="assets/form.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Students Registration Form</title>
+  </head>
+  <body>
+    <div class="form_outer_container">
+      <div class="form_container">
+        <div class="a_box">
+            <div class="inside_a_box">
+                <h3>Crimpson Institute</h3>
+            </div>
+        </div>
+        <form>
+            <center>Sign Up </center>
+          <div class="form-field-1">
+            <label for="first">First Name:</label>
+            <input type="text" />
+          </div>
+          <div class="form-field-2">
+            <label for="first">Last Name:</label>
+            <input type="text" />
+          </div>
+          <div class="form-field">
+            <label for="first">Email Address:</label>
+            <input type="email" />
+          </div>
+          <div class="form-field">
+            <label for="first">Date of Birth:</label>
+            <input type="date" />
+          </div>
+          <div class="form-group">
+            <div class="form-field">
+              <label for="gender">Gender:</label><br />
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="male">Male</label><br />
+              <input type="radio" id="female" name="gender" value="female" />
+              <label for="female">Female</label><br />
+              <input type="radio" id="other" name="gender" value="other" />
+              <label for="other">Other</label>
+            </div>
+            <div class="form-field">
+              <p>Select four programs:</p>
+              <input type="checkbox" name="program" value="Business" />
+              Business<br />
+              <input type="checkbox" name="program" value="Engineering" />
+              Engineering<br />
+              <input type="checkbox" name="program" value="Computer Science" />
+              Computer Science<br />
+              <input type="checkbox" name="program" value="Nursing" />
+              Nursing<br />
+              <input type="checkbox" name="program" value="Psychology" />
+              Psychology<br />
+              <input type="checkbox" name="program" value="Biology" />
+              Biology<br />
+              <br />
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="picture">Upload a picture:</label>
+            <input type="file" id="picture" name="picture" accept="image/*" />
+        </div>
+        <center><input type="submit" value="Submit" /></center>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
