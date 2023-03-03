@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./img/family.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-attachment: fixed;
+}
+
+.form_container {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 90%;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.header {
+  color: orangered;
+  height: 2rem;
+  background-color: white;
+  width: max-content;
+  padding: 1rem;
+  position: absolute;
+  top: -1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input, select{
+    width: 90%;
+    border: 1px solid white;
+    outline: none;
+    background-color: transparent;
+    margin-top: 1rem;
+    color: white;
+    padding: 5px;
+    height: 3rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+select{
+    margin-bottom: 2rem;
+}
+
+select>*{
+    color: black;
+    font-size: 15px;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+    font-weight: 900;
+}
+
+
+
+
+form{
+    height: 80%;
+    width: 80%;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+input[type="radio"]{
+    width: 25px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+}
+
+input[type="submit"]{
+    background-color: orangered;
+    width: max-content;
+    padding: 5px 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.gender_container{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+    height: 2rem;
+}
+
+.gender_container .gender, .programme{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.gender label, .gender_container p{
+    padding-top: 10px;
+}
+
+.programmes_container{
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+}
+
+.programmes_container label{
+    padding-top: 10px;
+}
+
+
+@media screen and (min-width:801px) {
+    .programmes_area, .gender_container{
+        width: 50%;
+    }
+
+    .gender{
+        width: 20%;
+    }
+}
