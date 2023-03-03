@@ -14,8 +14,9 @@
       </div>
       <ul>
         <li><a href="">Home</a></li>
-        <li><a href="">Profile</a></li>
-        <li><a href="">Portfolio</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Education</a></li>
+        <li><a href="">Views</a></li>
         <li><a href="">Contact</a></li>
       </ul>
     </nav>
@@ -28,9 +29,9 @@
         <img src="assets/img/family/williaam.png" alt="" class="profile_img" />
       </div>
     </header>
-    <section>
-      <div class="friend_desc">
-        <h2>ABOUT MY FRIEND</h2>
+    <section id="section_parent">
+      <div class="section_desc">
+        <h2 class="section_title">Summary</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
           accusamus at quidem animi obcaecati natus aliquid eaque? Quaerat
@@ -48,17 +49,73 @@
       </div>
     </section>
     <section>
-      <div class="portfolio">
-        <main class="school"></main>
-        <main class="interest"></main>
-        <main class="skills"></main>
+      <div class="portfolio main_container">
+        <main class="school section_parent">
+            <div class="section_desc">
+                <h2 class="section_title">education</h2>
+                <ul class="education_items">
+                    <li><div class="round"></div>University of Cape Coast, 2019-present</li>
+                    <li><div class="round"></div>Senior High, 2019-present</li>
+                    <li><div class="round"></div>Junior High, 2019-present</li>
+                    <li><div class="round"></div>Primary, 2019-present</li>
+                </ul>
+            </div>
+        </main>
       </div>
     </section>
-    <section>
-      <h2>Contact Him</h2>
+    <section class="section_parent">
+        <div class="section_desc">
+            <h2 class="section_title">Contact Him</h2>
+            <div class="contact_box">
+                <div class="contact-option-one">
+                    <div class="socials">
+                        <h2>Social Handles</h2>
+                    </div>
+                    <div class="grouped_contacts">
+                        <div class="email">
+                            <h2>Email</h2>
+                        </div>
+                        <div class="phone">
+                            <h2>Phone</h2>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="form-alt">Or</h3>
+                <section class="contact_section" id="contact">
+                    <div class="page_title_cont">
+                      
+                    </div>
+                    <div class="contact_parent">
+                      <img src="assets/img/contact_img2.png" alt="" class="contact_img">
+                      <div class="contact_form_bg">
+                        <form action="" class="cont_form_main">
+                          <input type="email" class="name_input input" placeholder="Email">
+                          <input type="text" class="subject_input input" placeholder="Subject">
+                          <textarea class="body_input input" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                          <button class="contact_submit_button">
+                            <i class="fa-light fa-paper-plane-top"></i> Send
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                  </section>
+            </div>
+        </div>
     </section>
     <footer>
       <h3>&copy; 2023</h3>
+      <ul>
+        <h5 style="color: orangered; text-decoration: underline;">Services</h5>
+        <li><a href="file:///home/william/Desktop/webtech/fruity.html">Fruit Bar</a></li>
+              <li><a href="#">Vegetables shop</a></li>
+              <li><a href="#">Provision Bar</a></li>
+      </ul>
+      <ul>
+        <h5 style="color: orangered; text-decoration: underline;">Sponsors</h5>
+              <li><a href="file:///home/william/Desktop/webtech/myFamily.html">Danquah Family</a></li>
+              <li><a href="file:///home/william/Desktop/webtech/myfriend.html">Benjamin Attakumah</a></li>
+      </ul>
+      <h5 style="width: 100%; color: orangered; position: absolute; bottom: 0; text-align: center;">Made with Love by Danquah William</h5>
     </footer>
   </body>
 </html>

@@ -1,232 +1,314 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-
-::-webkit-scrollbar{
-    display: none;
+ul {
+  list-style: none;
 }
 
-body{
-    height: 1500px;
-    width: 100vw;
-    overflow-x: hidden;
+a {
+  text-decoration: none;
+  color: white;
 }
 
-html{
-    scroll-behavior: smooth;
+::-webkit-scrollbar {
+  display: none;
 }
 
-header{
-    height: 90vh;
-    margin-bottom: 3rem;
+body {
+  height: 1500px;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
-.hero{
-    background: url("img/fresh_berries.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100vw;
-    background-attachment: fixed;  
-    position: relative;
-    z-index: -1;  
+html {
+  scroll-behavior: smooth;
 }
 
-
-
-nav{
-    width: 100vw;
-    height: 4rem;
-    /* background-color: white; */
-    background-color: orangered;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    top: 0;
+header {
+  height: 90vh;
+  margin-bottom: 3rem;
 }
 
-nav h3{
-    color: white;
-    letter-spacing: 3px;
-    cursor: pointer;
+.hero {
+  background: url("img/fresh_berries.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100vw;
+  background-attachment: fixed;
+  position: relative;
+  z-index: -1;
 }
 
-.nav-list{
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    width: max-content;
-    font-weight: 600;
+nav {
+  width: 100vw;
+  height: 4rem;
+  /* background-color: white; */
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-
-
-.nav-list a{
-    color: white;
-    text-decoration: none;
-    margin-left: 1.5rem;
-    padding: 10px 15px;
-
+nav h3 {
+  color: white;
+  letter-spacing: 3px;
+  cursor: pointer;
 }
 
-.nav-list a:hover{
-    transition: .5s ease-in-out;
-    color: orangered;
-    background-color: white;
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: max-content;
+  font-weight: 600;
 }
 
-.section_one{
-    width: 100%;
-}
-.jumbothron{
-    width: 95%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  padding: 10px 15px;
 }
 
-.desc{
-    width: 60ch;
-    padding-left: 3rem;
+.nav-list a:hover {
+  transition: 0.5s ease-in-out;
+  color: orangered;
+  background-color: white;
 }
 
-.desc h3{
-    color: orangered;
-    font-size: 25px;
-    margin-bottom: 2rem;
-    letter-spacing: 4px;
+.section_one {
+  width: 100%;
+}
+.jumbothron {
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.desc p{
-    font-size: 20px;
+.desc {
+  width: 60ch;
+  padding-left: 3rem;
 }
 
-.price{
-    color: orangered;
-    font-weight: 700;
-    margin-top: 5px;
+.desc h3 {
+  color: orangered;
+  font-size: 25px;
+  margin-bottom: 2rem;
+  letter-spacing: 4px;
 }
 
-.desc .descr-btns{
-    display: flex;
-    justify-content: space-around;
-    width: 60%;
-    margin-top: 1rem;
+.desc p {
+  font-size: 20px;
 }
 
-.btn{
-    padding: 10px 20px;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    width:15ch;
-    font-weight: 600;
+.price {
+  color: orangered;
+  font-weight: 700;
+  margin-top: 5px;
 }
 
-.btn-buy{
-    color: white;
-    background-color: rgb(251, 120, 68);
+.desc .descr-btns {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin-top: 1rem;
 }
 
-.btn-buy:hover{
-    background-color: orangered;
+.btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  width: 15ch;
+  font-weight: 600;
 }
 
-.btn-sell{
-    background-color: oldlace;
-    border: 1px solid #333;
+.btn-buy {
+  color: white;
+  background-color: rgb(251, 120, 68);
 }
 
-.btn-sell:hover{
-    color: white;
-    background-color: orangered;
-    border: none;
+.btn-buy:hover {
+  background-color: orangered;
 }
 
-.fruit_card{
-    width: 50ch;
-    text-align: center;
+.btn-sell {
+  background-color: oldlace;
+  border: 1px solid #333;
 }
 
-.fruit-descip{
+.btn-sell:hover {
+  color: white;
+  background-color: orangered;
+  border: none;
+}
+
+.fruit_card {
+  width: 50ch;
+  text-align: center;
+}
+
+.fruit-descip {
+  width: 70%;
+  height: 35ch;
+  margin: auto;
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.6);
+  margin-top: 1rem;
+}
+
+.btn-buy-now {
+  color: white;
+  background-color: orangered;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.categories-container {
+  margin-top: 4.5rem;
+}
+
+.categories {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 3rem;
+}
+
+center h2 {
+  color: orangered;
+  margin-bottom: 3.5rem;
+}
+
+.hero_inside {
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 13.5rem;
+  top: 40%;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.hero_inside h3 {
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.hero_inside a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  border: 1px solid orangered;
+  background-color: orangered;
+  padding: 10px 22px;
+  width: max-content;
+}
+
+.hero_inside a:hover {
+  background-color: orangered;
+}
+
+.fa-cart-arrow-down {
+  font-size: 21px;
+}
+
+.fa-star,
+.fa-star-half {
+  color: goldenrod;
+}
+
+.contact_section {
+  margin-bottom: 5rem;
+}
+
+.contact_section .page_title_cont h2 {
+  margin-bottom: 2rem;
+}
+
+.contact_parent {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  position: relative;
+}
+.contact_form_bg {
+  width: 60vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_img {
+  object-fit: cover;
+  width: 600px;
+  height: 500px;
+}
+
+.cont_form_main {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 510px;
+  justify-content: center;
+  gap: 1.3rem;
+}
+
+.cont_form_main .input {
+  background-color: transparent;
+  padding: 4px;
+  outline: none;
+  border: 2px solid orange;
+  color: white;
+}
+
+.cont_form_main .input::placeholder {
+  color: white;
+  font-weight: bold;
+}
+
+.contact_submit_button {
+  width: max-content;
+  background-color: #0d6efd;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+}
+footer {
+  background-color: #000;
+  height: 16rem;
+  margin-top: 3rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem 2rem 0 0;
+  position: relative;
+  gap: 3rem;
+}
+
+.section_title {
+  color: orangered;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-list {
     width: 70%;
-    height: 35ch;
-    margin: auto;
-    box-shadow: 10px 0 20px rgba(0, 0, 0, .6);
-    margin-top: 1rem;
-}
-
-.btn-buy-now{
-    color: white;
-    background-color: orangered;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    cursor: pointer;
-}
-.categories-container{
-    margin-top: 4.5rem;
-}
-
-.categories{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-center h2{
-    color: orangered;
-    margin-bottom: 3.5rem;
-}
-
-.hero_inside{
-    color: white;
-    position: absolute;
-    width: 100%;
-    height: 13.5rem;
-    top: 40%;
-    background-color: rgba(0, 0, 0, .6);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-}
-
-.hero_inside h3{
-    font-size: 45px;
-    letter-spacing: 5px;
-}
-
-.hero_inside a{
-    color: white;
-    font-size: 15px;
-    text-decoration: none;
-    border: 1px solid orangered;
-    background-color: orangered;
-    padding: 10px 22px;
-    width: max-content;
-}
-
-.hero_inside a:hover{
-    background-color: orangered;
-}
-
-.fa-cart-arrow-down{
-    font-size: 21px;
-}
-
-.fa-star, .fa-star-half{
-    color: goldenrod;
-}
-
-
-@media screen and (max-width:500px){
-    .nav-list{
-        display: none;
-    }
+  }
 }
