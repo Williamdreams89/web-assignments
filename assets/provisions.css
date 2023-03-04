@@ -34,7 +34,7 @@
   }
   
   .hero {
-    background: url("img/vegybg.jpeg");
+    background: url("img/provision/provbg.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -48,7 +48,7 @@
     width: 100vw;
     height: 4rem;
     /* background-color: white; */
-    background-color: #333;
+    background-color: crimson;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -71,18 +71,18 @@
   .nav-list a {
     color: white;
     text-decoration: none;
-    margin-left: 1.5rem;
     padding: 10px 15px;
   }
   
   .nav-list a:hover {
     transition: 0.5s ease-in-out;
-    color: orangered;
+    color: crimson;
     background-color: white;
   }
   
   .section_one {
-    width: 100%;
+    width: 90%;
+    margin: auto;
   }
   .jumbothron {
     width: 95%;
@@ -97,7 +97,7 @@
   }
   
   .desc h3 {
-    color: orangered;
+    color: crimson;
     font-size: 25px;
     margin-bottom: 2rem;
     letter-spacing: 4px;
@@ -108,7 +108,7 @@
   }
   
   .price {
-    color: orangered;
+    color: crimson;
     font-weight: 700;
     margin-top: 5px;
   }
@@ -131,11 +131,11 @@
   
   .btn-buy {
     color: white;
-    background-color: rgb(251, 120, 68);
+    background-color: crimson;
   }
   
   .btn-buy:hover {
-    background-color: orangered;
+    background-color: crimson;
   }
   
   .btn-sell {
@@ -145,7 +145,7 @@
   
   .btn-sell:hover {
     color: white;
-    background-color: orangered;
+    background-color: crimson;
     border: none;
   }
   
@@ -164,7 +164,7 @@
   
   .btn-buy-now {
     color: white;
-    background-color: orangered;
+    background-color: crimson;
     margin-top: 1rem;
     margin-bottom: 1rem;
     cursor: pointer;
@@ -181,7 +181,7 @@
   }
   
   center h2 {
-    color: orangered;
+    color: crimson;
     margin-bottom: 3.5rem;
   }
   
@@ -209,14 +209,14 @@
     color: white;
     font-size: 15px;
     text-decoration: none;
-    border: 1px solid orangered;
-    background-color: orangered;
+    border: 1px solid crimson;
+    background-color: crimson;
     padding: 10px 22px;
     width: max-content;
   }
   
   .hero_inside a:hover {
-    background-color: orangered;
+    background-color: crimson;
   }
   
   .fa-cart-arrow-down {
@@ -290,7 +290,7 @@
     border-radius: 10px;
   }
   footer {
-    background-color: #000;
+    background-color: crimson;
     height: 16rem;
     margin-top: 3rem;
     color: white;
@@ -303,7 +303,7 @@
   }
   
   .section_title {
-    color: orangered;
+    color: crimson;
     text-align: center;
     text-transform: uppercase;
   }
