@@ -56,16 +56,16 @@ header .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    
-    
+    flex-direction: column;   
 }
 
 
 
 header img{
-    width: 400px;
-    height: 550px;
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    top: -60%;
 }
 
 main .profile h2, .socials_heading, .contact_heading{
@@ -88,6 +88,15 @@ main .profile{
     position: relative;
 }
 
+.profile_picture_container{
+    width: 400px;
+    height: 220px;
+    position: relative;
+}
+
+.profile_picture_container .blob{
+    height: 500px;
+}
 .profile_watermark{
     position: absolute;
     z-index: -1;
