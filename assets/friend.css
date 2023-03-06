@@ -59,6 +59,21 @@ header .container{
     flex-direction: column;   
 }
 
+.brief_desc{
+    text-align: center;
+}
+
+.brief_desc h2{
+    color: brown;
+}
+
+.brief_desc p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
 
 
 header img{
@@ -191,6 +206,10 @@ footer{
     .contact_container div{
         width: 40%;
         height: 300px;
+    }
+
+    .blob{
+        height: 300px !important;
     }
 }
 
